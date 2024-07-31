@@ -1,4 +1,4 @@
-##Required Mosdules
+## Required Modules
 ```bash
 pip install kivy time requests
 ```
