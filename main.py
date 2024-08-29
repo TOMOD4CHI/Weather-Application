@@ -12,7 +12,7 @@ class WeatherApp(App):
 
     def get_weather(self):
         city_name = self.root.ids.city_input.text
-        api_key = 'cbe0235361316dba0bb43eaa292d7331'
+        api_key = 'xxxx'
         base_url = f'http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}&units=metric'
 
         response = requests.get(base_url)
